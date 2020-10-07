@@ -9,17 +9,17 @@
 Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
 
 <p align="center">
-  <a href="https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot/fork">
-    <img src="https://img.shields.io/github/forks/Adithyan1133-ctrl/Mia-Khalifa-Bot?label=Fork&style=social">
+  <a href="https://github.com/gautamajay52/TorrentLeech-Gdrive.git">
+    <img src="https://img.shields.io/github/forks/gautamajay52/TorrentLeech-Gdrive?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot">
-    <img src="https://img.shields.io/github/stars/Adithyan1133-ctrl/Mia-Khalifa-Bot?style=social">
+    <img src="https://img.shields.io/github/stars/gautamajay52/TorrentLeech-Gdrive.git ?style=social">
   </a>
 </p>
 
 ### Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jishnu133/chic_.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gautamajay52/TorrentLeech-Gdrive.git)
 
 ### Configuration
 
