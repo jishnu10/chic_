@@ -28,7 +28,7 @@ from miakhalifa.modules.connection import connect_button
 
 PM_START_TEXT = """
 _Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
+_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!! Made specially for managing this group @Pruthvi_RJ_Group _
 _Maintained by_ [{}](tg://user?id={})
 """
 
@@ -41,7 +41,7 @@ the things I can help you with.
  ⭕️ - /start: start the bot
  ⭕️ - /help: PM's you this message.
  ⭕️ - /help [<module name>](t.me/{}?startgroup=true) : PM's you info about that module.
- ⭕️ - /source: Information about my source.
+ ⭕️ - /Group: Information about my group.
  ⭕️ - /settings:
    🔺 - in PM: will send you your settings for all supported modules.
    🔺 - in a group: will redirect you to pm, with all that chat's settings.
@@ -58,8 +58,7 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com)
-⚡You Can't Clone Me [🌝](https://heroku.com)
+⚡Kannada Movies Request Group @Pruthvi_RJ_Group
 """
 
 
@@ -180,7 +179,7 @@ def send_start(bot, update):
     text = PM_START_TEXT
 
     keyboard = [[InlineKeyboardButton(text="🤝 Help",callback_data="help_back"),InlineKeyboardButton(text="My Owner 🇮🇳",url="https://t.me/Raja_Kannada_Admin")]]
-    keyboard += [[InlineKeyboardButton(text="🌐 Connect Group", callback_data="main_connect"),InlineKeyboardButton(text="our group ",url="t.me/{}?startgroup=true".format(bot.username))]]
+    keyboard += [[InlineKeyboardButton(text="MY GROUP 🤍",url="https://t.me/Pruthvi_RJ_Group"),InlineKeyboardButton(text="➕ Add me ➕ ",url="t.me/{}?startgroup=true".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
