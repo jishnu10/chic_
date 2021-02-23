@@ -78,7 +78,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/25b2343fbe5076171831e.jpg"
+    img = "https://telegra.ph/file/d4a01a7c0b0668cd5f1ba.jpg"
 else:
   img = START_IMG    
     
@@ -179,7 +179,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="🤝 Help",callback_data="help_back"),InlineKeyboardButton(text="My Owner 🇮🇳",url="https://t.me/USER_IS_HACKER")]]
+    keyboard = [[InlineKeyboardButton(text="🤝 Help",callback_data="help_back"),InlineKeyboardButton(text="My Owner 🇮🇳",url="https://t.me/Raja_Kannada_Admin")]]
     keyboard += [[InlineKeyboardButton(text="🌐 Connect Group", callback_data="main_connect"),InlineKeyboardButton(text="our group ",url="t.me/{}?startgroup=true".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
@@ -281,7 +281,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="❔Help",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="🔰Contact Creator",url="https://t.me/USER_IS_HACKER")]]))
+                                                [InlineKeyboardButton(text="🔰Contact OWNER",url="https://t.me/Raja_Kannada_Admin")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
