@@ -1,4 +1,4 @@
-### Mia Khalifa Bot
+### 
 
 <p align="center">
 <img src="https://telegra.ph/file/25b2343fbe5076171831e.jpg" alt="Mia Khalifa bot">
