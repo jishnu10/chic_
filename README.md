@@ -19,7 +19,7 @@ Modular Telegram bot for managing your groups with a extras features with Hunter
 </p>
 
 ### Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gautamajay52/TorrentLeech-Gdrive.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jishnu10/chic_.git)
 
 ### Configuration
 
